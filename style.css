@@ -1,0 +1,65 @@
+
+header{
+    display: flex;
+}
+header ul{
+    display: flex;
+    list-style: none;
+   margin-left: 30px;
+   /* background-color: red; */
+}
+header ul li{
+    display: flex;
+   margin-left: 20%;
+}
+.contackButton{
+    padding-top: 5px;
+    display: flex;
+    margin-left: 63%;
+    width: 90px;
+    height: 30px;
+    color:white;
+    font-size: 13px;
+    font-weight: 700;
+    background-color:#5955b3;
+    border-radius: 7%;
+}
+main{
+    display: flex;
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    margin-left: 100px ;
+    margin-top: 8%;
+}
+main h1{
+    /* background-color:red; */
+    font-weight: 700;
+    font-size: 50px; 
+}
+.lBlue{
+  color: #3d2e61;
+  /* background-color: red; */
+}
+.dBlue{
+    color: #5955b3;
+}
+.rightSection{
+    width: 70%;
+    margin-left: 20%;
+}
+main img{
+    width: 100%;
+    height: fit-content;
+}
+.serviceButton{
+    width: 150px;
+    height: 30px;
+    color:white;
+    font-size: 13px;
+    font-weight: 700;
+    background-color:#5955b3;
+    border-radius: 11%;
+}
